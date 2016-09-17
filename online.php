@@ -10,5 +10,4 @@
         echo "<div class='onlineuser'> ";
           echo $diz['uyeadi']; echo "<i class='fa fa-circle' style='color: #16a085; margin-right: 10px;'></i>  </div>";
         }
-
 ?>
