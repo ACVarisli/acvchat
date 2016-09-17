@@ -4,7 +4,7 @@ include "config/linkmysql.php";
 
 if ( $_POST ){
 
-  $time = time();
+$time = time();
 
 $kadi = strip_tags(trim($_POST["kadi"]));
 $sifre = strip_tags(trim($_POST["sifre"]));
@@ -22,7 +22,6 @@ $say = mysql_num_rows($bul);
             $oturum_ekle = mysql_query("UPDATE uyeler SET sonetkinlik='$time' WHERE uyeadi='$kadi'");
 
             echo " giriş başarılı ";
-
    }else{
             echo "böyle bir kullanıcı yok, bizi mi koparıyorsun anlamadım ki.";
    }
