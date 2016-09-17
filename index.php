@@ -21,7 +21,6 @@ session_start();
 
    <?php  if (!isset($_SESSION["oturum"])){  ?>
 
-
 <header id="topBar">
    <div class="reg-button"><i class="fa fa-user-plus"></i>  Üyelik Oluştur</div>
 </header>
