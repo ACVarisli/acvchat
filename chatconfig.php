@@ -7,7 +7,7 @@ session_start();
 
 <html>
 <head> 
-<title> Sohbet Ayarları </title>
+<title> Sohbet AyarlarÃ½ </title>
 <link rel="stylesheet" type="text/css" href="extensions/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/chat.css">
 <link rel="stylesheet" type="text/css" href="css/main-style.css">
@@ -25,17 +25,16 @@ $diz = mysql_fetch_array($query);
 	$buttonreq = $diz["buttonreq"];
 	$showeditor = $diz["showeditor"];
 	$showdate = $diz["showdate"];
-	
 ?> 
     <div class="leftBar">
-          <div class="settitle"> Ayarlar Seçkesi </div>
+          <div class="settitle"> Ayarlar SeÃ§kesi </div>
           <div class="hrline"></div>
           <li style="margin-top: 30px;"><a href="#" class="active"><i class="fa fa-navicon"></i> Genel Ayarlar </a></li>
-          <li><a href="#"><i class="fa fa-eye"></i> Görünüm  </a></li>
-          <li><a href="#"><i class="fa fa-universal-access"></i> Erişilebilirlik  </a></li>
+          <li><a href="#"><i class="fa fa-eye"></i> GÃ¶rÃ¼nÃ¼m  </a></li>
+          <li><a href="#"><i class="fa fa-universal-access"></i> EriÃ¾ilebilirlik  </a></li>
     </div>
     <div class="notifs">
-       <span class="notif-text" style="margin-top: 11px; display: block">Sohbet İçi Ayarlar</span>
+       <span class="notif-text" style="margin-top: 11px; display: block">Sohbet ÃÃ§i Ayarlar</span>
      </div>
      <div class="setcontent">
         <div class="option-title">
@@ -48,7 +47,7 @@ $diz = mysql_fetch_array($query);
                     </span>
         </span>
       </label>
-       <div class="option" style="inline-block;">Mesaj göndermek için butona tıklamak gereksin.</div>
+       <div class="option" style="inline-block;">Mesaj gÃ¶ndermek iÃ§in butona tÃ½klamak gereksin.</div>
     <label class="checkbox">
     <input type="checkbox" class="checkbox" name="showeditor" <?php if ( $showeditor == 1 ){ echo "checked='checked'"; } ?>>
     <span class="checkbox">
@@ -56,7 +55,7 @@ $diz = mysql_fetch_array($query);
                 </span>
     </span>
   </label>
-           <div class="option" style="inline-block;">Editör seçeneklerini göster</div>
+           <div class="option" style="inline-block;">EditÃ¶r seÃ§eneklerini gÃ¶ster</div>
 <label class="checkbox">
 <input type="checkbox" class="checkbox" name="showdate" <?php if ( $showdate == 1 ){ echo "checked='checked'"; } ?>>
 <span class="checkbox">
@@ -64,14 +63,14 @@ $diz = mysql_fetch_array($query);
             </span>
 </span>
 </label>
-       <div class="option" style="inline-block;">Sohbet bloğunda tarih göster</div>
+       <div class="option" style="inline-block;">Sohbet bloÃ°unda tarih gÃ¶ster</div>
             <div class="save">
                     <input type="submit" value=" KAYDET " class="savebutton" name="save">
-                    <input type="submit" value=" KAYDET VE ÇIK " class="savebutton" name="saveexit">
+                    <input type="submit" value=" KAYDET VE Ã‡IK " class="savebutton" name="saveexit">
             </div>
             <div class="cancel">
 		<form name="gotoback" action="index.php">
-        <input type="submit" value=" İPTAL ET " class="cancelbutton">
+        <input type="submit" value=" ÃPTAL ET " class="cancelbutton">
 		</form>
       </div>
      </div>
