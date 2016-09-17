@@ -1,0 +1,254 @@
+/* Sıfırlamalar */
+
+* {
+   border: 0;
+   padding: 0;
+   list-style: none;
+   text-decoration: none;
+   outline: none;
+   margin: 0;
+}
+
+body {
+   background: rgba(52,73,94, 0.86);
+   position: relative;
+   overflow-y: hidden;
+}
+
+div.parent {
+   margin-top: 150px;
+   font-family: Titillium;
+}
+
+div.login {
+   height: 320px;
+   width: 265px;
+   background: rgba(255,255,255, 0.9);
+   border-radius: 4px;
+   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   -moz-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   border-top: 6px solid rgba(243, 156, 18, 1);
+   display: none;
+}
+
+div.register {
+   margin-top: -50px;
+   height: 375px;
+   width: 265px;
+   background: rgba(255,255,255, 0.9);
+   border-radius: 4px;
+   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   -moz-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   border-top: 6px solid #27ae60;
+   display: none;
+}
+
+input.girisinput {
+   display: block;
+   width: 135px;
+   line-height: 23px;
+   background: transparent;
+   margin-left: 6px;
+}
+
+div.icon {
+   width: 60px;
+   height: 60px;
+   border-radius: 70px;
+   background: rgba(243, 156, 18, 1);
+   display: table;
+   color: #fff;
+   position: relative;
+   top: -34px;
+   -webkit-box-shadow: 0px 1px 4px -1px rgba(0,0,0,0.23);
+   -moz-box-shadow: 0px 1px 4px -1px rgba(0,0,0,0.23);
+   box-shadow: 0px 1px 4px -1px rgba(0,0,0,0.23);
+   -webkit-transition: all 0.2s linear;
+   -moz-transition: all 0.2s linear;
+   transition: all 0.2s linear;
+}
+
+div.icon-for-reg {
+   width: 60px;
+   height: 60px;
+   border-radius: 70px;
+   background: #27ae60;
+   display: table;
+   color: #fff;
+   position: relative;
+   top: -34px;
+   -webkit-box-shadow: 0px 1px 4px -1px rgba(0,0,0,0.23);
+   -moz-box-shadow: 0px 1px 4px -1px rgba(0,0,0,0.23);
+   box-shadow: 0px 1px 4px -1px rgba(0,0,0,0.23);
+   -webkit-transition: all 0.2s linear;
+   -moz-transition: all 0.2s linear;
+   transition: all 0.2s linear;
+}
+
+div.icon i, div.icon-for-reg {
+   display: table-cell;
+   vertical-align: middle;
+}
+
+
+div.input-block {
+   background: #E0E0E0;
+   margin-top: 7px;
+   width: 175px;
+   padding: 6px;
+   border: 1px solid #b8b8b8;
+   box-shadow: 0 1px 0px rgba(0,0,0,0.12), 0 1px 0px rgba(0,0,0,0.24);
+   -webkit-transition: all 0.2s linear;
+   -moz-transition: all 0.2s linear;
+   transition: all 0.2s linear;
+}
+
+div.input-block i {
+   float: left;
+   top: 3px;
+   position: relative;
+   color: #696969;
+   -webkit-transition: all 0.1s ease-in-out;
+   -moz-transition: all 0.1s ease-in-out;
+   transition: all 0.1s ease-in-out;
+   left: 6px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #F39C12;
+  margin-top: -15px;
+}
+
+input.girisbtn {
+  padding: 5px 10px 5px 10px;
+  margin-top: 25px;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, transparent 50%, #F39C12 50%);
+  background-color: transparent;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  border: 2px solid #F39C12;
+  color: #F39C12;
+  cursor: pointer;
+  box-shadow: 0 1px 0px rgba(0,0,0,0.12), 0 1px 0px rgba(0,0,0,0.24);
+}
+
+input.kayitbtn {
+  padding: 5px 10px 5px 10px;
+  margin-top: 25px;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, transparent 50%, #27ae60 50%);
+  background-color: transparent;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  border: 2px solid #27ae60;
+  color: #27ae60;
+  cursor: pointer;
+  box-shadow: 0 1px 0px rgba(0,0,0,0.12), 0 1px 0px rgba(0,0,0,0.24);
+}
+
+input.kayitbtn:hover {
+  background-position: 0 -100%;
+  color: #fff;
+}
+
+input.girisbtn:hover {
+  background-position: 0 -100%;
+  color: #fff;
+}
+
+div.attention {
+  margin-top: 25px;
+  background: #f1f2f3;
+  border-radius: 4px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 265px;
+  border-bottom: 5px solid #E74C3C;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+ opacity: 0;
+ -webkit-transition: all 0.3s ease-in-out;
+ transition: all 0.3s ease-in-out;
+ -moz-transition: all 0.3 ease-in-out;
+ font-size: 13px;
+}
+
+div.attention i {
+   float: left;
+   color: #E74C3C;
+   margin-left: 12px;
+   margin-top: -3px;
+   opacity: 0.9;
+}
+
+footer#nav {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-right: 18px;
+  padding-bottom: 10px;
+   font-family: Titillium;
+}
+
+span.text {
+  color: #ffffff;
+  opacity: 0.6;
+   font-family: Titillium;
+}
+
+footer#nav a {
+  color: #F1C40F;
+  opacity: 0.6;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1 ease-in-out;
+   font-family: Titillium;
+}
+
+footer#nav a:hover {
+  opacity: 1;
+}
+
+h2 {
+   margin: 0;
+   font-weight: lighter;
+   position: relative;
+}
+
+header#topBar {
+   padding: 15px;
+   font-family: Titillium;
+}
+
+div.reg-button {
+   color: #fff;
+   background: #2ecc71;
+   padding: 6px;
+   border-radius: 4px;
+   width: 125px;
+   text-align: center;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.6s cubic-bezier(.25,.8,.25,1);
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  -moz-user-select: none;
+}
+
+div.reg-button:hover {
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background: #27ae60;
+}
+
+div.reg-state {
+   background: #3498db;
+}
+
+div.reg-state:hover {
+   background: #2980b9;
+}
