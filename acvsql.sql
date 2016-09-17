@@ -65,8 +65,8 @@ CREATE TABLE IF NOT EXISTS `uyeler` (
 --
 
 INSERT INTO `uyeler` (`id`, `uyeadi`, `uyesifre`, `email`, `admin`, `ban`, `ipadress`, `sonetkinlik`) VALUES
-(1, 'ACV', '123456', 'example@outlook.com', 1, 0, 0, 0),
-(2, 'TestUser', '123456', 'qwdwqdw', 0, 0, 0, 0),
+(1, 'ACV', '123456', 'example@outlook.com', 1, 0, 0),
+(2, 'TestUser', '123456', 'qwdwqdw', 0, 0, 0)
 
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
