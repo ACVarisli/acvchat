@@ -66,13 +66,8 @@ CREATE TABLE IF NOT EXISTS `uyeler` (
 
 INSERT INTO `uyeler` (`id`, `uyeadi`, `uyesifre`, `email`, `admin`, `ban`, `ipadress`, `sonetkinlik`) VALUES
 (1, 'ACV', '6266932', 'acvprod2014@outlook.com', 1, 0, 0, 1467212549),
-(4, 'Miko007', '123456', 'qwdw', 0, 0, 0, 1467212222),
-(6, 'HazretiYasuo123', '123456', 'dwqldw', 0, 0, 0, 1466331509),
-(7, 'TestUser', '123456', 'qwdwqdw', 0, 0, 0, 1466331513),
-(8, 'DahaDahaTestUse', '123456', 'wqd', 0, 0, 0, 1466331588),
-(9, 'Delaredo', '123456', 'qwdwq', 0, 0, 0, 1466331507),
-(10, 'Allame', '123456', 'wqdwq', 0, 0, 0, 1466331507),
-(11, 'LastUser', '123456', 'dwqdwq', 0, 1, 0, 1466331506);
+(2, 'TestUser', '123456', 'qwdwqdw', 0, 0, 0, 1466331513),
+
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
