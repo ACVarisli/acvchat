@@ -59,7 +59,7 @@ function mesajGonder(m){
           url: "sohbet.php",
           data: {"type":"gonder", "bold": "0", "mesaj": mesaj},
           success: function(sonuc){
-            if( sonuc == "empty"){
+            if( sonuc == ""){
               alert("Boş yapma");
                 $("input[name=mesaj]").removeAttr("disabled");
             }else{
