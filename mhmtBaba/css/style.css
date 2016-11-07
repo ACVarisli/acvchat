@@ -46,10 +46,12 @@ h1 {
 	color: #FFF;
 	font-weight: 200;
 	font-size: 45px;
+	margin-bottom: -15px;
 }
 
 span.desc { 
 	color: #777; 
+	font-size: 15px;
 	text-align: left;
 }
 
@@ -124,10 +126,7 @@ span.desc {
 	height: 100%;
 	background: #2c3e50;
 }
-/*
-.facebook:hover:before {
-	left: 0px;
-}*/
+
 
 .facebook:hover {
 	top: 27px;
