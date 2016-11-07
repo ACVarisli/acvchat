@@ -21,6 +21,12 @@ body {
 
 .textField {
 	display: inline-block;
+	transform: scale(0);
+	transition: all 500ms;
+}
+
+.textField.active {
+	transform: scale(1);
 }
 
 .mahmutBaba {
@@ -63,5 +69,10 @@ span.desc {
 	box-sizing: border-box;
 	color: #969696;
 	font-size: 13px;
-	opacity: 0.8;
+	transition: all 700ms;
+	opacity: 0;
+}
+
+#footer.active {
+	opacity: 1;
 }
